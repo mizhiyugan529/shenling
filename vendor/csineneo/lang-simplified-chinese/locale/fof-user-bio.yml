@@ -1,0 +1,9 @@
+fof-user-bio:
+    admin:
+        permission:
+            view: 查看简介
+            editOwn: 编辑个人简介
+            editAny: 编辑任意简介
+
+    forum:
+        userbioPlaceholder: 介绍你自己

@@ -1,0 +1,48 @@
+{
+    "name": "fof/subscribed",
+    "description": "Better user subscriptions for your Flarum forum",
+    "keywords": [
+        "extension",
+        "flarum",
+        "fof",
+        "friendsofflarum",
+        "subscriptions"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel@klabbers.email",
+            "homepage": "http://luceos.com"
+        },
+        {
+            "name": "Christian Lopez",
+            "email": "Lopez.T.Christian@gmail.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.9"
+    },
+    "replace": {
+        "flagrow/subscribed": "*"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "FoF Subscribed",
+            "icon": {
+                "name": "fas fa-reply-all",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/6460"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "FoF\\Subscribed\\": "src/"
+        }
+    }
+}

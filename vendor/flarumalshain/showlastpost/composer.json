@@ -1,0 +1,36 @@
+{
+  "name": "flarumalshain/showlastpost",
+  "description": "See the last answers to the questions on the home page",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": ">=0.1.0-beta.9 < 0.1.0-beta.14"
+  },
+  "authors": [
+    {
+      "name": "FlarumAlshain",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FlarumAlshain\\ShowLastPost\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Show Last Post",
+      "icon": {
+	"name": "fas fa-pen-square",
+	"backgroundColor": "#4F57D2",
+	"color": "#FFFFFF"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}

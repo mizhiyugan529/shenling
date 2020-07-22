@@ -1,0 +1,1 @@
+Fickle is installed. Add your announcement to /assets/extensions/zerosonesfun-fickle-announcement/fickle.txt

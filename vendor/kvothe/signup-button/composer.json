@@ -1,0 +1,39 @@
+{
+  "name": "kvothe/signup-button",
+  "description": "Adds a Signup Button to the Navigation.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "authors": [
+    {
+      "name": "Kvothe",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kvothe\\SignupButton\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Sign Up Button",
+      "icon": {
+        "image": "resources/logo.png",
+        "backgroundColor": "#27ae60",
+        "backgroundSize": "100%",
+        "backgroundRepeat": "no-repeat",
+        "backgroundPosition": "center"
+       
+      }
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/18812-sign-up-button"
+    }
+  }
+}
